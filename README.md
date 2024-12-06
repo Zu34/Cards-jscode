@@ -1,11 +1,8 @@
 
-### **How to Use:**
+# This code of displaying 3 cards is mainly used pure js code using innerhtml
 
-1. Save the `index.html` file and `dom.js` file.
-2. Add images like `apple.png`, `banana.png`, and `cherry.png` in the same folder as the HTML file.
-3. Open the HTML file in a browser to see the dynamically generated product cards.
-
----
+ **JavaScript** 
+- The logic that dynamically generates product cards and appends them to the container.
 
 ### **Notes**:
 
