@@ -1,0 +1,61 @@
+/* STill using this custom CSS is Optional */
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Card Container */
+  #card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  /* Styling for individual cards */
+  .card {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card Image */
+  .card-img-top {
+    object-fit: cover; /* Make sure the image covers the area */
+    height: 200px;
+    width: 100%;
+    display: block;
+  }
+  
+  /* Card Body */
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .card-text strong {
+    color: #333;
+  }
+  
+  /* Add Hover Effect */
+  .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+  }
+  
